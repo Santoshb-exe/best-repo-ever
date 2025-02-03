@@ -1,5 +1,3 @@
 # best-repo-ever
 
-Asstala vista 
-
-Apna time aayega , $$$$ apna time aayega
+updating the readme documentation to test the github and git vcs, making changes to incorporate git settings
