@@ -1,18 +1,20 @@
 name: "GitHub Actions test"
-run-name: "GitHub Actions Santosh Running"
+run-name: "GitHub Actions Running"
 on: [ push, pull_request ]
+
 jobs:
-    build-and-deploy: # # test job
-        runs-on: ubuntu-latest # # Github hosted
+    build-and-deploy:
+        runs-on: ubuntu-latest
 
         steps:
-            -run: echo "this is my first job"
-        # ###
-            name: " First job Message"
+            -
+                name: "First job Message"
+                run: echo "this is my first job"
 
     clean-up:
-    runs-on: ubuntu-latest # # Github hosted
-    steps:
-        -run: echo "this is my second job"
-        # ###
-        name: " Second job Message"
+        runs-on: ubuntu-latest
+
+        steps:
+            -
+                name: "Second job Message"
+                run: echo "this is my second job"
